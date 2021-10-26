@@ -1,11 +1,13 @@
-# Project X (building a X to do Y)
+# React JS Template
 
-In this project, I built a small Library app to show and add books to a library.
+This repo contains all the necessary files needed to quickly get started with building an application with React -- linters, create react app, dependencies, and Tailwind.
 
 ## Built with
 
 - HTML
+- CRACO
 - CSS
+- React
 - JavaScript
 - Tailwind CSS
 - VScode
@@ -13,7 +15,7 @@ In this project, I built a small Library app to show and add books to a library.
 
 ## Live Demo
 
-[Live Link](https://raw.githack.com/nikoescobal/library-app/feature/build/index.html)
+[Live Link]()
 
 
 ## Getting Started
@@ -23,12 +25,14 @@ To get a local copy up and running follow these simple example steps.
 ## Setup
 
 - Clone this repository. 
-- Navigate to the project folder (Library) and open the ``index.html`` with the browser.
+- Run ``npm i`` or ``yarn`` to install dependencies required to start the project
+- Using node v15.11.0 (npm v7.6.0) 
+- Run ``npm start`` to trigger ``craco start``
 
 ## Run Tests
 
 ```
-npx eslint .
+npm run lint
 ```
 
 ## Author:
