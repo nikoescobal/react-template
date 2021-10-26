@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Project X (building a X to do Y)
 
 In this project, I built a small Library app to show and add books to a library.
@@ -60,9 +59,5 @@ Give a ⭐️ if you like this project!
 ## 📝 MIT License
 
 This project makes use of the MIT license.
-=======
-# JS-Template
-## A cool template with Tailwind, Webpacker, and all the kinks pre-configured to make kickstarting a vanilla JS project seamless. 
 
 Just clone and then run npm install to make it work.
->>>>>>> 07ed09b029e1288c1d40eb23119890dacae9f071
