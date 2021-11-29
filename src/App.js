@@ -1,14 +1,11 @@
-import './App.css';
+import { Route, Switch } from 'react-router-dom';
+import MainPage from './pages/Main.page';
 
 function App() {
   return (
-    // eslint-disable-next-line react/jsx-no-duplicate-props
-    <div className="App" className="p-6 items-center justify-center">
-      <h1 className="text-blue-400 font-extrabold"> Hello World! </h1>
-      {' '}
-      <p className="tracking-widest"> This is my first React App. </p>
-      {' '}
-    </div>
+    <Switch>
+      <Route exact path="/" component={MainPage} />
+    </Switch>
   );
 }
 
